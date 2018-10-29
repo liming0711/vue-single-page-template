@@ -4,6 +4,7 @@
 
 ## src 目录结构
 ```
+
 ├─assets             项目中会用到的资源
 │ ├─fonts
 │ ├─images
@@ -17,4 +18,5 @@
 ├─router             路由
 ├─store              状态管理
 └─utils              工具集
+
 ```
