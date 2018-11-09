@@ -19,7 +19,7 @@ let httpRequest = function (request) {
     .then(response => {
       return Promise.resolve(handleResult(response));
     })
-    .catch((error, config, request) => {
+    .catch(error => {
       return Promise.reject(handleResult(error.response));
     });
 };
